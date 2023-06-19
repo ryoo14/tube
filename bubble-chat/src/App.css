@@ -35,7 +35,8 @@
   margin-bottom: 10px;
   position: relative;
   width: max-content;
-  max-width: 50%;
+  max-width: 80%;
+  min-width: 60px;
   text-align: left;
 }
 
