@@ -28,7 +28,8 @@ function App() {
       <div className="bubble-input-wrapper">
         <input 
           size={input.length > 0 ? input.length + 4 : 1}
-          className="bubble-input" value={input} onChange={handleChange} onKeyDown={handleKeyDown} type="text" />
+          className="bubble-input" value={input} onChange={handleChange} onKeyDown={handleKeyDown}
+          type="text" spellCheck="false" />
       </div>
     </div>
   );
